@@ -15,7 +15,7 @@ namespace task_1
             Console.WriteLine("Enter the value of z:");
             uint z = uint.Parse(Console.ReadLine());
 
-            System.Console.WriteLine(x + y);
+            System.Console.WriteLine(++x * ++y);
 
         }
     }
