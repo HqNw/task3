@@ -7,13 +7,13 @@ namespace task_1
         static void Main(string[] args)
         {
             Console.WriteLine("Enter the value of x:");
-            uint x = uint.Parse(Console.ReadLine());
+            int x = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Enter the value of y:");
-            uint y = uint.Parse(Console.ReadLine());            
+            int y = int.Parse(Console.ReadLine());            
 
             Console.WriteLine("Enter the value of z:");
-            uint z = uint.Parse(Console.ReadLine());
+            int z = int.Parse(Console.ReadLine());
 
             System.Console.WriteLine((float) ((++x) + (--y)  )/ z);
 
